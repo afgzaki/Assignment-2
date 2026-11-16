@@ -2,7 +2,7 @@
 
 **Student:** Zaki Afghanzada
 **Course:** INFR3120 - Web and Scripting Programming (Fall 2026)
-**Live site:** https://YOUR-RENDER-LINK.onrender.com
+**Live site:** https://assignment-2-w4d5.onrender.com.
 **Repository:** https://github.com/afgzaki/Assignment-2
 
 ## How it was built
