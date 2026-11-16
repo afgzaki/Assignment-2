@@ -1,11 +1,17 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+<!--Main content: Home page-->
+<main class="container mt-4">
+  <div class="p-5 mb-4 hero rounded text-center">
+    <h1>Welcome to my portfolio</h1>
+    <p class="lead">I'm Zaki Afghanzada, a student at Ontario Tech University interested in networking and software.</p>
+    <a class="btn btn-dark" href="/projects">View my projects</a>
+    <a class="btn btn-outline-dark" href="/contactus">Contact me</a>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-4"><i class="fa-solid fa-user fa-2x"></i><h3>About Me</h3><p><a href="/aboutus">Read my introduction</a></p></div>
+    <div class="col-md-4"><i class="fa-solid fa-folder-open fa-2x"></i><h3>Projects</h3><p><a href="/projects">See my course projects</a></p></div>
+    <div class="col-md-4"><i class="fa-solid fa-envelope fa-2x"></i><h3>Contact</h3><p><a href="/contactus">Get in touch</a></p></div>
+  </div>
+</main>
+<%- include partials/footer.ejs %>

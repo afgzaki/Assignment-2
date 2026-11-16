@@ -1,0 +1,20 @@
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+<!--Main content: About page-->
+<main class="container mt-4">
+  <h1><%= title %></h1>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="/images/profile.png" class="img-fluid rounded" alt="Photo of Zaki Afghanzada">
+    </div>
+    <div class="col-md-8">
+      <p>PASTE YOUR ABOUT INTRO FROM ASSIGNMENT 1 HERE.</p>
+    </div>
+  </div>
+  <h2 class="mt-4">Introduction video</h2>
+  <video class="w-100" controls poster="/images/poster.jpg">
+    <source src="/video/intro.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</main>
+<%- include partials/footer.ejs %>
